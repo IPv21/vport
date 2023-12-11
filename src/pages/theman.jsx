@@ -1,8 +1,11 @@
 import React from 'react';
+import '../index.css';
+import Header from '../components/header.jsx';
 
-const AboutMe = () => {
+export default function TheMan() {
   return (
     <section className='aboutMeWrapper'>
+        <Header />
       <h1>The Man...</h1>
       <div className="moreman">
         <p>
@@ -22,6 +25,7 @@ const AboutMe = () => {
           height="90%"
           width="200px"
         />
+        </div>
 
 <div className="moreman">
         <img
@@ -41,7 +45,5 @@ const AboutMe = () => {
 
 
     </section>
-  );
-};
-
-export default AboutMe;
+    );
+}
