@@ -4,6 +4,7 @@ function Navigation() {
   const location = useLocation();
 
   return (
+   <div className="header-content"> 
     <nav>
       <ul>
         <li className={location.pathname === "/theman" ? "active" : ""}>
@@ -17,6 +18,7 @@ function Navigation() {
         </li>
       </ul>
     </nav>
+    </div>
   );
 }
 
