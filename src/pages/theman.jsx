@@ -19,22 +19,38 @@ export default function TheMan() {
           decided to take the plunge. I'm excited to see where this new path
           takes me!
         </p>
+        </div>
+
+        <pictures className="pictures">
+        <img
+          src="/images/love.jpg"
+          alt="Matthew Shuman"
+          height="90%"
+          width="200px"
+        />
+
         <img
           src="/images/lookleft.jpg"
           alt="Matthew Shuman"
           height="90%"
           width="200px"
         />
-        </div>
 
-<div className="moreman">
-        <img
+<img
           id="marathon"
           src="/images/marathon.jpg"
           alt="Matthew Shuman"
           height="250px"
           width="200px"
         />
+
+
+
+
+        </pictures>
+
+<div className="moreman">
+ 
         A dedicated team member with a passion for learning, I'm looking for a
         company that will allow me to learn and grow as a developer. An avid
         runner, I have completed several half marathons and one full marathon.
