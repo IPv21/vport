@@ -13,25 +13,25 @@ export default function Header() {
                     <nav>
                         <ul>
                             <li className="navButtons">
-                                <Link to="/" className={location.pathname === '/landing' ? 'active' : ''}>
+                                <Link id="home" to="/" className={location.pathname === '/landing' ? 'active' : ''}>
                                     Home
                                 </Link>
                             </li>
 
                             <li className="navButtons">
-                                <Link to="/theman" className={location.pathname === '/theman' ? 'active' : ''}>
+                                <Link id="man" to="/theman" className={location.pathname === '/theman' ? 'active' : ''}>
                                     The Man...
                                 </Link>
                             </li>
 
                             <li className="navButtons">
-                                <Link to="/theworks" className={location.pathname === '/theworks' ? 'active' : ''}>
+                                <Link id="works" to="/theworks" className={location.pathname === '/theworks' ? 'active' : ''}>
                                     The Works....
                                 </Link>
                             </li>
 
-                            <li className="navButtons">
-                                <Link to="/thecall" className={location.pathname === '/thecall' ? 'active' : ''}>
+                            <li id="call" className="navButtons">
+                                <Link id="call" to="/thecall" className={location.pathname === '/thecall' ? 'active' : ''}>
                                     The Call...
                                 </Link>
                             </li>
