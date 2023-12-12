@@ -153,7 +153,7 @@
   
   .project a:hover {
   color: white;
-  background-color: #0F2C59; /* Change the color for links on hover */
+  background-color: #b63c10; /* Change the color for links on hover */
   }
   
   .projectLinks {
@@ -452,4 +452,125 @@
   text-align: center;
   justify-content: center;
   color: #11141f;
+}
+
+.card {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-color: #F8F0E5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+
+  
+}
+
+.card-body {
+  padding: 10px;
+  flex: 1 1 auto;
+  text-align: center;
+  justify-content: center;
+  color: #11141f;
+}
+
+<!-- HTML !-->
+<button class="button-59" role="button">Button 59</button>
+
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #4b7fd1;
+}
+
+.button-59:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(26, 25, 25, 0.2);
+  background-color: rgb(47, 46, 46);
+  padding-top: 20px;
+}
+
+@media (max-width: 975px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(26, 25, 25, 0.2);
+    background-color: rgb(47, 46, 46);
+    padding-top: 20px;
+  }
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(26, 25, 25, 0.2);
+  background-color: rgb(47, 46, 46);
+  padding-top: 20px;
+}
+
+.work h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: #F8F0E5;
+  text-shadow: #6f6f6e 4px 4px 4px;
+  }
 }
