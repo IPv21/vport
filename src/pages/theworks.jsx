@@ -38,8 +38,9 @@ export default function TheWorks() {
           ConnectUs is a powerful React application designed to streamline communication within a company across different departments. This project leverages GraphQL and MongoDB to  provide a seamless and efficient communication platform.
             </p>
             <a href="https://connectus943-7bbab6a61bad.herokuapp.com/">
-            </a>
+            
           <button className="button-59">Get Connected</button>
+          </a>
         </div>
       </div>
 
@@ -51,7 +52,7 @@ export default function TheWorks() {
                 WOW is a simple blog using using Auth, a MySQL database and displaying information using Handlebars. 
               </p>
       
-              <a href="https://brousy.github.io/factors/">
+              <a href="https://morning-falls-12589-743225784c59.herokuapp.com/">
               <button className="button-59">Start Posting!</button>
               </a>
           </div>
@@ -79,7 +80,7 @@ export default function TheWorks() {
               Primal Planner is a fitness scheduling tool that allows users to plan their workouts for an entire week. It offers features like user authentication for secure access, a database to store workouts, and API calls to fetch relevant fitness data. With Primal Planner, you can create a personalized workout plan, track your progress, and stay motivated on your fitness journey. 
               </p>
       
-              <a href="https://ipv21.github.io/weatherguy/ ">
+              <a href="https://primalplanner-6f3879bf7f09.herokuapp.com/">
               <button className="button-59">GET PUMPED UP!</button>
               </a>
           </div>
