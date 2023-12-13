@@ -8,9 +8,11 @@ export default function Footer() {
           <a href="https://github.com/IPv21" rel="noreferrer" target="_blank">
             <img className="logos" src="/images/github.svg" alt="Github Logo" />
           </a>
+          
           <a href="https://www.linkedin.com/in/matthew-shuman-8781b6220/" rel="noreferrer" target="_blank">
             <img className="logos" src="/images/linkedin.svg" alt="Linkedin Logo" />
           </a>
+          <p>Made with ❤️ by Matthew Shuman. 2023. </p>
         </div>
         </div>
       );

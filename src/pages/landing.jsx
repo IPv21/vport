@@ -10,7 +10,8 @@ export default function Landing() {
             <Header />
             <div className="landing">
    
-                <img id="landpic" src="/images/cover.jpg" height= "400px" width="350px" alt="Picture of Matthew Shuman" />
+            <img id="landpic" src="/images/cover.jpg" height="400px" width="350px" alt="Picture of Matthew Shuman" title="A Gentleman and a Scholar" />
+
                 <h2>Full Stack Web Developer</h2>
                 <h3>Philadelphia, PA</h3>
             </div>
