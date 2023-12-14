@@ -33,6 +33,7 @@
     width: 100%;
     background-color: red;
     color: white;
+    font-weight: 500;
     text-align: center;
   }
   
@@ -92,7 +93,7 @@
   
   /* Style form buttons */
   form button {
-  background-color: #007BFF;
+  background-color: #cacfd5;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -101,7 +102,7 @@
   }
   
   form button:hover {
-  background-color: #0056b3;
+  background-color: #f0f3f5;
   }
   
   
@@ -141,7 +142,7 @@
   /* You can add more styles like font-size, font-weight, etc. */
   }
   
-  
+
   .projectPageTitle {
   text-align: center;
   justify-content: center;
@@ -165,7 +166,7 @@
   .project a:hover {
   color: white;
   background-color: #b63c10; /* Change the color for links on hover */
-  }
+  } 
   
   .projectLinks {
   display: flex;
@@ -175,7 +176,7 @@
   text-align: center;
   padding: 5px;
   }
-  
+   
   .header-content {
     width: 100%;
     display: inline-block;
@@ -249,8 +250,8 @@
   /* Style the focus state */
   .navButtons a:focus,
   .navButtons a:focus-visible {
-  outline: none; /* Remove the default focus outline */
-  color: #fcc16f; /* Change the text color on focus */
+  outline: none; Remove the default focus outline
+  color: #cd7e0e; /* Change the text color on focus */
   background-color: #30f012;
   padding: 2px;
   
@@ -282,14 +283,14 @@
   transition: border-color 0.25s;
   }
   
-  button:hover {
+  /* button:hover {
   border-color: #fafbfc;
   }
   
   button:focus,
   button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-  }
+  } */
   
   
   /* Adjust font sizes and padding for smaller screens */
@@ -306,7 +307,7 @@
   .projectWrapper {
     grid-template-columns: 1fr; /* Change to a single column for smaller screens */
     gap: 20px; /* Reduce the gap between items */
-    padding: 20px; /* Add some padding to the projects for spacing */
+    padding: 20px; Add some padding to the projects for spacing
   }
   
   .project {
@@ -333,7 +334,7 @@
   .navButtons {
     height: 100%;
     margin-right: 0px;
-    scale: 0.5;
+    scale: 0.75;
   }
   
   footer {
@@ -376,8 +377,13 @@
   line-height: 1.1;
   color: #F8F0E5;
   }
+
   #man {
     color: red;
+}
+
+#man:hover {
+    color: rgb(39, 233, 45);
 }
 
 #works{
@@ -488,8 +494,6 @@
   color: #11141f;
 }
 
-<!-- HTML !-->
-<button class="button-59" role="button">Button 59</button>
 
 /* CSS */
 .button-59 {
@@ -561,8 +565,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(26, 25, 25, 0.2);
-    background-color: rgb(47, 46, 46);
     padding-top: 20px;
   }
 }
@@ -623,4 +625,18 @@
 .resume:hover {
   transform: scale(1.5);
   transition: transform 0.5s;
+}
+
+.moreman {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  
+  color-scheme: light dark;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
 }

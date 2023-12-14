@@ -18,8 +18,8 @@ export default function TheCall() {
             <p id="callp">I bring with me a unique skill set that gives me a competitive edge as I have a lifetime of experience in customer service, team work and team building, and a drive for excellence matched by none. Don't miss this opportunity to add a star to your team.</p>
             <p id="callp">.</p>
            <div className="resume"> 
-            <img id="callpic" src="/images/1.png" height="600px" width="400px" alt="Picture of Matthew Shuman" title="A Gentleman and a Scholar" />
-            <img id="callpic" src="/images/2.png" height="600px" width="400px" alt="Picture of Matthew Shuman" title="A Gentleman and a Scholar" />
+            <img id="callpic" src="/images/1.png" height="600px" width="400px" alt="Resume Page 1" title="Resume 1" />
+            <img id="callpic" src="/images/2.png" height="600px" width="400px" alt="Resume Page 2" title="Resume 2" />
            </div> 
             <p id="callp">.</p>
             <p id="callp">215-254-0810</p>
