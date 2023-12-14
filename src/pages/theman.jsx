@@ -27,6 +27,7 @@ export default function TheMan() {
           alt="Matthew Shuman"
           height="90%"
           width="200px"
+          alt="Matthew Shuman after Love Run"
         />
 
         <img
@@ -34,6 +35,7 @@ export default function TheMan() {
           alt="Matthew Shuman"
           height="90%"
           width="200px"
+          alt="Matthew Shuman looking left"
         />
 
 <img
@@ -42,6 +44,7 @@ export default function TheMan() {
           alt="Matthew Shuman"
           height="250px"
           width="200px"
+          alt="Matthew Shuman after Marathon"
         />
 
 

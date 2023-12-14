@@ -87,7 +87,7 @@ export default function TheWorks() {
       </div>
 
       <div className="card" >
-        <img src="/images/6.png" height="250px"className="card-img-top" alt="Fitness App Landing page" />
+        <img src="/images/6.png" height="250px"className="card-img-top" alt="TodoTada Landing page" />
           <div className="card-body">
             <h3 className="card-title">Todo Tada!</h3>
               <p className="card-text">
