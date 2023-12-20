@@ -24,7 +24,6 @@ export default function TheMan() {
         <pictures className="pictures">
         <img
           src="/images/love.jpg"
-          alt="Matthew Shuman"
           height="90%"
           width="200px"
           alt="Matthew Shuman after Love Run"
@@ -32,7 +31,6 @@ export default function TheMan() {
 
         <img
           src="/images/lookleft.jpg"
-          alt="Matthew Shuman"
           height="90%"
           width="200px"
           alt="Matthew Shuman looking left"
@@ -41,7 +39,6 @@ export default function TheMan() {
 <img
           id="marathon"
           src="/images/marathon.jpg"
-          alt="Matthew Shuman"
           height="250px"
           width="200px"
           alt="Matthew Shuman after Marathon"
