@@ -627,6 +627,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .resume {
@@ -639,7 +641,7 @@
 }
 
 .resume:hover {
-  transform: scale(1.5);
+  transform: scale(1.24);
   transition: transform 0.5s;
 }
 
