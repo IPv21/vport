@@ -87,15 +87,15 @@ export default function TheWorks() {
       </div>
 
       <div className="card" >
-        <img src="/images/6.png" height="250px"className="card-img-top" alt="TodoTada Landing page" />
+        <img src="/images/expense.png" height="250px"className="card-img-top" alt="Expense Tracker" />
           <div className="card-body">
-            <h3 className="card-title">Todo Tada!</h3>
+            <h3 className="card-title">Jan's Expenses</h3>
               <p className="card-text">
-              Description: Todo Tada! is a simple to-do list app that allows users to create, edit, and delete tasks. It uses a MySQL database to store the tasks and is deployed on Heroku.
+              Jan's Expenses is a simple budgeting app that allows users to track their expenses and income. It has been deployed on Heroku and will soon be expanded to use a database to store user information and be downloadable as a mobile app.
               </p>
       
-              <a href="https://immense-lake-10385-616c7fef344f.herokuapp.com/">
-              <button className="button-59">Take Notes</button>
+              <a href="https://jansexpenses-1f6acd26e127.herokuapp.com/">
+              <button className="button-59">Get Trackin!</button>
               </a>
           </div>
       </div>
